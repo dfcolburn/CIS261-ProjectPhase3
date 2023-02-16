@@ -31,7 +31,6 @@ def GetDatesWorked():
             print("To date must be after from date. Try again.")
             print()
         else:
-            continue
             break    
     return fromdate, todate
 
